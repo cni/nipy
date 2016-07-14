@@ -20,7 +20,7 @@ from ._registration import _joint_histogram
 MAX_INT = np.iinfo(np.intp).max
 
 # Module globals
-VERBOSE = True  # enables online print statements
+VERBOSE = False  # enables online print statements
 OPTIMIZER = 'powell'
 XTOL = 1e-2
 FTOL = 1e-2
